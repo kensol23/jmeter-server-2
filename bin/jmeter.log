@@ -1,0 +1,1198 @@
+2018-09-07 12:14:37,772 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-09-07 12:14:37,794 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-09-07 12:14:37,795 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-09-07 12:14:37,800 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-09-07 12:14:37,800 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-09-07 12:14:37,800 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-09-07 12:14:37,800 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-09-07 12:14:37,800 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-09-07 12:14:37,800 INFO o.a.j.JMeter: os.arch=x86_64
+2018-09-07 12:14:37,800 INFO o.a.j.JMeter: os.version=10.13.2
+2018-09-07 12:14:37,800 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-09-07 12:14:37,801 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-09-07 12:14:37,801 INFO o.a.j.JMeter: Available Processors =8
+2018-09-07 12:14:37,804 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-09-07 12:14:37,805 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-09-07 12:14:37,805 INFO o.a.j.JMeter: JMeterHome=/Users/crksf/apache/apache-jmeter-4.0
+2018-09-07 12:14:37,805 INFO o.a.j.JMeter: user.dir  =/Users/crksf/apache/apache-jmeter-4.0/bin
+2018-09-07 12:14:37,805 INFO o.a.j.JMeter: PWD       =/Users/crksf/apache/apache-jmeter-4.0/bin
+2018-09-07 12:14:37,807 INFO o.a.j.JMeter: IP: 192.168.126.58 Name: crmac09-lp.local FullName: 192.168.126.58
+2018-09-07 12:14:39,677 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-09-07 12:14:39,691 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2018-09-07 12:14:39,692 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2018-09-07 12:14:39,759 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-09-07 12:14:40,305 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-09-07 12:14:40,305 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-09-07 12:14:41,242 INFO o.a.j.JMeter: Loading file: /Users/crksf/Documents/GitHub/api-jmeter-tests/jmeter-ec2/llbean-load/jmx/llbean-load-content-api.jmx
+2018-09-07 12:14:41,243 INFO o.a.j.s.FileServer: Default base='/Users/crksf/apache/apache-jmeter-4.0/bin'
+2018-09-07 12:14:41,245 INFO o.a.j.s.FileServer: Set new base='/Users/crksf/Documents/GitHub/api-jmeter-tests/jmeter-ec2/llbean-load/jmx'
+2018-09-07 12:14:41,352 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-09-07 12:14:41,355 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-09-07 12:14:41,357 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-09-07 12:14:41,359 INFO o.a.j.s.SaveService: Loading file: /Users/crksf/Documents/GitHub/api-jmeter-tests/jmeter-ec2/llbean-load/jmx/llbean-load-content-api.jmx
+2018-09-07 12:14:41,471 INFO o.a.j.u.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22
+2018-09-07 12:14:41,484 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-07 12:14:41,484 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-07 12:14:41,485 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-07 12:14:41,485 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-07 12:14:41,485 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-09-07 12:14:41,485 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-09-07 12:14:41,493 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-09-07 12:14:41,493 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-09-07 12:14:41,494 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-09-07 12:14:41,494 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-09-07 12:14:41,546 INFO o.a.j.s.FileServer: Set new base='/Users/crksf/Documents/GitHub/api-jmeter-tests/jmeter-ec2/llbean-load/jmx'
+2018-09-07 12:14:41,630 WARN k.a.j.t.UltimateThreadGroup: Removing property 'threads_schedule' as invalid
+2018-09-07 12:14:41,867 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:14:42,056 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:14:42,272 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:42,273 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:42,273 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:42,274 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:42,934 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-09-07 12:14:42,935 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/crksf/apache/apache-jmeter-4.0/bin/proxyserver.jks
+2018-09-07 12:14:43,228 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-sense=3.5, jpgc-functions=2.1, jpgc-casutg=2.5, jpgc-dummy=0.2, jpgc-ffw=2.0, jpgc-json=2.6, jpgc-plugins-manager=0.20, jpgc-tst=2.5, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0]
+2018-09-07 12:14:43,231 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2018-09-07 12:14:43,344 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:43,345 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:43,345 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:43,345 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:43,345 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:43,345 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:43,345 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:43,345 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:43,345 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:14:43,345 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:28:35,028 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-09-07 12:28:35,029 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-07 12:28:35,029 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-07 12:28:35,046 INFO k.a.j.r.LoadosophiaUploader: Storing results for upload to Sense: /tmp/Sense_7556747707616153806.jtl
+2018-09-07 12:28:35,053 INFO o.a.j.v.b.BackendListener: jp@gc - Loadosophia.org Uploader: Starting worker with class: class kg.apc.jmeter.reporters.LoadosophiaClient and queue capacity: 5000
+2018-09-07 12:28:35,054 INFO o.a.j.v.b.BackendListener: jp@gc - Loadosophia.org Uploader: Started  worker with class: class kg.apc.jmeter.reporters.LoadosophiaClient
+2018-09-07 12:28:35,054 INFO k.a.j.r.LoadosophiaClient: Starting BM.Sense online test
+2018-09-07 12:28:35,060 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/start HTTP/1.1
+2018-09-07 12:28:36,022 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:28:36,128 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:28:36,367 INFO k.a.j.r.LoadosophiaUploader: <p>Started active test: <a href='https://sense.blazemeter.com/gui/active/a6b1bf63/'>https://sense.blazemeter.com/gui/active/a6b1bf63/</a></p>
+2018-09-07 12:28:36,372 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-09-07 12:28:36,397 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Content
+2018-09-07 12:28:36,401 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Content.
+2018-09-07 12:28:36,401 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-09-07 12:28:36,401 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 100
+2018-09-07 12:28:36,450 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2018-09-07 12:28:36,450 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-09-07 12:28:36,708 INFO o.a.j.t.JMeterThread: Thread started: Content 1-100
+2018-09-07 12:28:36,880 WARN k.a.j.t.VariableThroughputTimer: No free threads available in current Thread Group Content, made 0 samples/s for expected rps 1.0 samples/s, increase your number of threads
+2018-09-07 12:28:36,886 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = crmac09-lp.local
+2018-09-07 12:28:36,889 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-09-07 12:28:37,007 INFO o.a.j.t.JMeterThread: Thread started: Content 1-99
+2018-09-07 12:28:37,016 WARN k.a.j.t.VariableThroughputTimer: No free threads available in current Thread Group Content, made 1 samples/s for expected rps 1.95 samples/s, increase your number of threads
+2018-09-07 12:28:37,303 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-09-07 12:28:37,305 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-09-07 12:28:37,305 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-09-07 12:28:37,306 INFO o.a.j.t.JMeterThread: Thread started: Content 1-98
+2018-09-07 12:28:37,312 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-09-07 12:28:37,313 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-09-07 12:28:37,313 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-09-07 12:28:37,605 INFO o.a.j.t.JMeterThread: Thread started: Content 1-97
+2018-09-07 12:28:37,903 INFO o.a.j.t.JMeterThread: Thread started: Content 1-96
+2018-09-07 12:28:38,207 INFO o.a.j.t.JMeterThread: Thread started: Content 1-95
+2018-09-07 12:28:38,344 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:28:38-0600","rps":2,"threads":6,"avg_rt":1384,"quantiles":{"100.0":1446,"99.0":1446,"98.0":1446,"95.0":1446,"90.0":1446,"80.0":1446,"75.0":1446,"50.0":1323,"25.0":1323},"net":{"0":0,"1":2},"rc":{"401":2},"planned_rps":0}]
+2018-09-07 12:28:38,344 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:28:38,507 INFO o.a.j.t.JMeterThread: Thread started: Content 1-94
+2018-09-07 12:28:38,805 INFO o.a.j.t.JMeterThread: Thread started: Content 1-93
+2018-09-07 12:28:39,104 INFO o.a.j.t.JMeterThread: Thread started: Content 1-92
+2018-09-07 12:28:39,404 INFO o.a.j.t.JMeterThread: Thread started: Content 1-91
+2018-09-07 12:28:39,561 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:28:38-0600","rps":2,"threads":7,"avg_rt":620,"quantiles":{"100.0":1028,"99.0":1028,"98.0":1028,"95.0":1028,"90.0":1028,"80.0":1028,"75.0":1028,"50.0":213,"25.0":213},"net":{"0":0,"1":2},"rc":{"401":2},"planned_rps":0},{"ts":"2018-09-07T12:28:39-0600","rps":1,"threads":9,"avg_rt":1058,"quantiles":{"100.0":1058,"99.0":1058,"98.0":1058,"95.0":1058,"90.0":1058,"80.0":1058,"75.0":1058,"50.0":1058,"25.0":1058},"net":{"0":0,"1":1},"rc":{"401":1},"planned_rps":0}]
+2018-09-07 12:28:39,562 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:28:39,708 INFO o.a.j.t.JMeterThread: Thread started: Content 1-90
+2018-09-07 12:28:40,003 INFO o.a.j.t.JMeterThread: Thread started: Content 1-89
+2018-09-07 12:28:40,306 INFO o.a.j.t.JMeterThread: Thread started: Content 1-88
+2018-09-07 12:28:40,608 INFO o.a.j.t.JMeterThread: Thread started: Content 1-87
+2018-09-07 12:28:40,760 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:28:39-0600","rps":1,"threads":11,"avg_rt":1031,"quantiles":{"100.0":1031,"99.0":1031,"98.0":1031,"95.0":1031,"90.0":1031,"80.0":1031,"75.0":1031,"50.0":1031,"25.0":1031},"net":{"0":0,"1":1},"rc":{"401":1},"planned_rps":0},{"ts":"2018-09-07T12:28:40-0600","rps":3,"threads":13,"avg_rt":740,"quantiles":{"100.0":1025,"99.0":1025,"98.0":1025,"95.0":1025,"90.0":1025,"80.0":1025,"75.0":1025,"50.0":993,"25.0":204},"net":{"0":0,"1":3},"rc":{"401":3},"planned_rps":0}]
+2018-09-07 12:28:40,761 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:28:40,903 INFO o.a.j.t.JMeterThread: Thread started: Content 1-86
+2018-09-07 12:28:41,204 INFO o.a.j.t.JMeterThread: Thread started: Content 1-85
+2018-09-07 12:28:41,506 INFO o.a.j.t.JMeterThread: Thread started: Content 1-84
+2018-09-07 12:28:41,806 INFO o.a.j.t.JMeterThread: Thread started: Content 1-83
+2018-09-07 12:28:41,955 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:28:41-0600","rps":9,"threads":18,"avg_rt":837,"quantiles":{"100.0":1996,"99.0":1996,"98.0":1996,"95.0":1996,"90.0":1996,"80.0":1110,"75.0":1110,"50.0":1011,"25.0":258},"net":{"0":0,"1":9},"rc":{"401":9},"planned_rps":0}]
+2018-09-07 12:28:41,955 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:28:42,104 INFO o.a.j.t.JMeterThread: Thread started: Content 1-82
+2018-09-07 12:28:42,389 INFO o.a.j.g.a.Start: Shutting test down
+2018-09-07 12:28:42,402 INFO o.a.j.t.JMeterThread: Thread started: Content 1-81
+2018-09-07 12:28:42,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-47
+2018-09-07 12:28:42,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-28
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-65
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-99
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-43
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-16
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-9
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-20
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-27
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-95
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-67
+2018-09-07 12:28:42,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-36
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-97
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-23
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-90
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-68
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-10
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-86
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-82
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-88
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-41
+2018-09-07 12:28:42,410 INFO o.a.j.t.JMeterThread: Stopping: Content 1-100
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-94
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-70
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-12
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-26
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-15
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-8
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-4
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-53
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-30
+2018-09-07 12:28:42,411 INFO o.a.j.t.JMeterThread: Stopping: Content 1-81
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-71
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-33
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-83
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-17
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-79
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-25
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-58
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-93
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-96
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-1
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-64
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-34
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-6
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-76
+2018-09-07 12:28:42,412 INFO o.a.j.t.JMeterThread: Stopping: Content 1-48
+2018-09-07 12:28:42,413 INFO o.a.j.t.JMeterThread: Stopping: Content 1-63
+2018-09-07 12:28:42,413 INFO o.a.j.t.JMeterThread: Stopping: Content 1-44
+2018-09-07 12:28:42,413 INFO o.a.j.t.JMeterThread: Stopping: Content 1-49
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-39
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-18
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-84
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-3
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-69
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-11
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-87
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-21
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-72
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-75
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-32
+2018-09-07 12:28:42,414 INFO o.a.j.t.JMeterThread: Stopping: Content 1-40
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-19
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-55
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-35
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-89
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-91
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-2
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-46
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-42
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-37
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-73
+2018-09-07 12:28:42,415 INFO o.a.j.t.JMeterThread: Stopping: Content 1-80
+2018-09-07 12:28:42,416 INFO o.a.j.t.JMeterThread: Stopping: Content 1-54
+2018-09-07 12:28:42,416 INFO o.a.j.t.JMeterThread: Stopping: Content 1-57
+2018-09-07 12:28:42,416 INFO o.a.j.t.JMeterThread: Stopping: Content 1-56
+2018-09-07 12:28:42,416 INFO o.a.j.t.JMeterThread: Stopping: Content 1-38
+2018-09-07 12:28:42,416 INFO o.a.j.t.JMeterThread: Stopping: Content 1-92
+2018-09-07 12:28:42,416 INFO o.a.j.t.JMeterThread: Stopping: Content 1-7
+2018-09-07 12:28:42,416 INFO o.a.j.t.JMeterThread: Stopping: Content 1-78
+2018-09-07 12:28:42,416 INFO o.a.j.t.JMeterThread: Stopping: Content 1-51
+2018-09-07 12:28:42,417 INFO o.a.j.t.JMeterThread: Stopping: Content 1-5
+2018-09-07 12:28:42,417 INFO o.a.j.t.JMeterThread: Stopping: Content 1-62
+2018-09-07 12:28:42,417 INFO o.a.j.t.JMeterThread: Stopping: Content 1-50
+2018-09-07 12:28:42,417 INFO o.a.j.t.JMeterThread: Stopping: Content 1-59
+2018-09-07 12:28:42,417 INFO o.a.j.t.JMeterThread: Stopping: Content 1-13
+2018-09-07 12:28:42,417 INFO o.a.j.t.JMeterThread: Stopping: Content 1-45
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-29
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-60
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-24
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-52
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-85
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-14
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-31
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-61
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-66
+2018-09-07 12:28:42,418 INFO o.a.j.t.JMeterThread: Stopping: Content 1-77
+2018-09-07 12:28:42,419 INFO o.a.j.t.JMeterThread: Stopping: Content 1-98
+2018-09-07 12:28:42,419 INFO o.a.j.t.JMeterThread: Stopping: Content 1-22
+2018-09-07 12:28:42,419 INFO o.a.j.t.JMeterThread: Stopping: Content 1-74
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-11
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-1
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-7
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-6
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-3
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-8
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-11
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-4
+2018-09-07 12:28:42,424 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-7
+2018-09-07 12:28:42,424 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-3
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-9
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-5
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-10
+2018-09-07 12:28:42,424 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-9
+2018-09-07 12:28:42,424 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-5
+2018-09-07 12:28:42,424 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-4
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-2
+2018-09-07 12:28:42,425 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-8
+2018-09-07 12:28:42,423 INFO o.a.j.t.JMeterThread: Thread started: Content 1-12
+2018-09-07 12:28:42,425 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-6
+2018-09-07 12:28:42,425 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-2
+2018-09-07 12:28:42,425 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-10
+2018-09-07 12:28:42,424 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-1
+2018-09-07 12:28:42,427 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-12
+2018-09-07 12:28:42,428 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-85
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread started: Content 1-14
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread started: Content 1-19
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread started: Content 1-21
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread started: Content 1-13
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-14
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-19
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-13
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-21
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread started: Content 1-20
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread started: Content 1-15
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread started: Content 1-16
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-15
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-16
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread started: Content 1-18
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread started: Content 1-30
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-18
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread started: Content 1-25
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread started: Content 1-26
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-30
+2018-09-07 12:28:42,435 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-25
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread started: Content 1-29
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread started: Content 1-23
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-43
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread started: Content 1-22
+2018-09-07 12:28:42,437 INFO o.a.j.t.JMeterThread: Thread started: Content 1-34
+2018-09-07 12:28:42,437 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-23
+2018-09-07 12:28:42,433 INFO o.a.j.t.JMeterThread: Thread started: Content 1-24
+2018-09-07 12:28:42,437 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-43
+2018-09-07 12:28:42,437 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-22
+2018-09-07 12:28:42,435 INFO o.a.j.t.JMeterThread: Thread started: Content 1-27
+2018-09-07 12:28:42,437 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-34
+2018-09-07 12:28:42,437 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-27
+2018-09-07 12:28:42,435 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-26
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-31
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-41
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-40
+2018-09-07 12:28:42,438 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-31
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-39
+2018-09-07 12:28:42,438 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-40
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-42
+2018-09-07 12:28:42,438 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-39
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-38
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-33
+2018-09-07 12:28:42,438 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-42
+2018-09-07 12:28:42,438 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-38
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-37
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-35
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-36
+2018-09-07 12:28:42,438 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-37
+2018-09-07 12:28:42,436 INFO o.a.j.t.JMeterThread: Thread started: Content 1-44
+2018-09-07 12:28:42,439 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-36
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread started: Content 1-28
+2018-09-07 12:28:42,439 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-44
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread started: Content 1-17
+2018-09-07 12:28:42,434 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-20
+2018-09-07 12:28:42,438 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-35
+2018-09-07 12:28:42,439 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-28
+2018-09-07 12:28:42,439 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-17
+2018-09-07 12:28:42,438 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-33
+2018-09-07 12:28:42,438 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-41
+2018-09-07 12:28:42,437 INFO o.a.j.t.JMeterThread: Thread started: Content 1-45
+2018-09-07 12:28:42,440 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-45
+2018-09-07 12:28:42,440 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-24
+2018-09-07 12:28:42,439 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-29
+2018-09-07 12:28:42,442 INFO o.a.j.t.JMeterThread: Thread started: Content 1-32
+2018-09-07 12:28:42,442 INFO o.a.j.t.JMeterThread: Thread started: Content 1-46
+2018-09-07 12:28:42,443 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-46
+2018-09-07 12:28:42,444 INFO o.a.j.t.JMeterThread: Thread started: Content 1-55
+2018-09-07 12:28:42,444 INFO o.a.j.t.JMeterThread: Thread started: Content 1-58
+2018-09-07 12:28:42,444 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-55
+2018-09-07 12:28:42,444 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-58
+2018-09-07 12:28:42,444 INFO o.a.j.t.JMeterThread: Thread started: Content 1-59
+2018-09-07 12:28:42,445 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-59
+2018-09-07 12:28:42,445 INFO o.a.j.t.JMeterThread: Thread started: Content 1-61
+2018-09-07 12:28:42,446 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-61
+2018-09-07 12:28:42,446 INFO o.a.j.t.JMeterThread: Thread started: Content 1-62
+2018-09-07 12:28:42,446 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-62
+2018-09-07 12:28:42,446 INFO o.a.j.t.JMeterThread: Thread started: Content 1-63
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread started: Content 1-60
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread started: Content 1-57
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-60
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread started: Content 1-47
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-57
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread started: Content 1-54
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-47
+2018-09-07 12:28:42,448 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-54
+2018-09-07 12:28:42,448 INFO o.a.j.t.JMeterThread: Thread started: Content 1-52
+2018-09-07 12:28:42,448 INFO o.a.j.t.JMeterThread: Thread started: Content 1-53
+2018-09-07 12:28:42,448 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-53
+2018-09-07 12:28:42,448 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-52
+2018-09-07 12:28:42,444 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-32
+2018-09-07 12:28:42,444 INFO o.a.j.t.JMeterThread: Thread started: Content 1-48
+2018-09-07 12:28:42,456 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-48
+2018-09-07 12:28:42,456 INFO o.a.j.t.JMeterThread: Thread started: Content 1-69
+2018-09-07 12:28:42,456 INFO o.a.j.t.JMeterThread: Thread started: Content 1-66
+2018-09-07 12:28:42,456 INFO o.a.j.t.JMeterThread: Thread started: Content 1-70
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread started: Content 1-64
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-70
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-64
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread started: Content 1-67
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread started: Content 1-65
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread started: Content 1-71
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-67
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread started: Content 1-73
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread started: Content 1-72
+2018-09-07 12:28:42,458 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-73
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread started: Content 1-56
+2018-09-07 12:28:42,458 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-63
+2018-09-07 12:28:42,448 INFO o.a.j.t.JMeterThread: Thread started: Content 1-50
+2018-09-07 12:28:42,458 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-50
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread started: Content 1-51
+2018-09-07 12:28:42,447 INFO o.a.j.t.JMeterThread: Thread started: Content 1-49
+2018-09-07 12:28:42,458 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-51
+2018-09-07 12:28:42,458 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-49
+2018-09-07 12:28:42,458 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-56
+2018-09-07 12:28:42,458 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-72
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread started: Content 1-68
+2018-09-07 12:28:42,459 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-68
+2018-09-07 12:28:42,457 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-65
+2018-09-07 12:28:42,456 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-66
+2018-09-07 12:28:42,461 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-71
+2018-09-07 12:28:42,461 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-69
+2018-09-07 12:28:42,462 INFO o.a.j.t.JMeterThread: Thread started: Content 1-78
+2018-09-07 12:28:42,462 INFO o.a.j.t.JMeterThread: Thread started: Content 1-74
+2018-09-07 12:28:42,462 INFO o.a.j.t.JMeterThread: Thread started: Content 1-77
+2018-09-07 12:28:42,462 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-78
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-77
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread started: Content 1-79
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread started: Content 1-76
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread started: Content 1-80
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-79
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-76
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread started: Content 1-75
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-80
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-75
+2018-09-07 12:28:42,463 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-74
+2018-09-07 12:28:42,517 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-88
+2018-09-07 12:28:42,601 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-100
+2018-09-07 12:28:42,601 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-97
+2018-09-07 12:28:43,152 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:28:42-0600","rps":6,"threads":20,"avg_rt":402,"quantiles":{"100.0":1010,"99.0":1010,"98.0":1010,"95.0":1010,"90.0":1010,"80.0":573,"75.0":573,"50.0":207,"25.0":207},"net":{"0":0,"1":6},"rc":{"401":6},"planned_rps":0}]
+2018-09-07 12:28:43,152 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:28:43,170 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-95
+2018-09-07 12:28:43,170 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-98
+2018-09-07 12:28:43,760 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-93
+2018-09-07 12:28:43,760 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-96
+2018-09-07 12:28:43,760 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-83
+2018-09-07 12:28:43,760 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-87
+2018-09-07 12:28:44,340 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-91
+2018-09-07 12:28:44,340 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-86
+2018-09-07 12:28:44,340 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-82
+2018-09-07 12:28:44,831 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-84
+2018-09-07 12:28:44,831 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-94
+2018-09-07 12:28:44,831 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-81
+2018-09-07 12:28:44,831 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-90
+2018-09-07 12:28:44,831 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-89
+2018-09-07 12:28:45,067 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-99
+2018-09-07 12:28:45,174 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-92
+2018-09-07 12:28:45,174 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-09-07 12:28:45,175 INFO o.a.j.r.Summariser: Generate Summary Results =     24 in 00:00:10 =    2.4/s Avg:   761 Min:   204 Max:  1996 Err:    24 (100.00%)
+2018-09-07 12:28:45,176 INFO o.a.j.v.b.BackendListener: Worker ended
+2018-09-07 12:28:45,177 INFO o.a.j.r.ResultCollector: forced flush through ResultCollector#flushFile
+2018-09-07 12:28:45,177 INFO k.a.j.r.LoadosophiaClient: Successfully flushed results file
+2018-09-07 12:28:45,180 INFO k.a.j.r.LoadosophiaUploader: Starting upload to BM.Sense
+2018-09-07 12:28:45,181 INFO o.l.j.LoadosophiaAPIClient: Preparing files to send
+2018-09-07 12:28:45,183 INFO k.a.j.r.LoadosophiaUploader: Gzipping /tmp/Sense_7556747707616153806.jtl
+2018-09-07 12:28:45,185 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/files HTTP/1.1
+2018-09-07 12:28:50,410 INFO k.a.j.h.HttpUtils: Requesting: GET https://sense.blazemeter.com/api/files/933384 HTTP/1.1
+2018-09-07 12:28:50,606 INFO k.a.j.h.HttpUtils: Requesting: PATCH https://sense.blazemeter.com/api/tests/696647 HTTP/1.1
+2018-09-07 12:28:50,829 INFO k.a.j.r.LoadosophiaUploader: <p>Uploaded successfully, go to results: <a href='https://sense.blazemeter.com/gui/696647/'>https://sense.blazemeter.com/gui/696647/</a></p>
+2018-09-07 12:28:50,829 INFO k.a.j.r.LoadosophiaClient: Ending BM.Sense online test
+2018-09-07 12:28:50,829 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/stop HTTP/1.1
+2018-09-07 12:28:51,046 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-09-07 12:29:33,267 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:29:33,325 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:29:33,349 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:29:33,363 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:29:34,450 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-07 12:29:34,468 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:29:39,160 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:29:39,181 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:29:55,732 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:29:55,741 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:29:55,766 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:29:55,842 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:04,696 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:26,829 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:26,833 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:26,862 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:26,865 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:26,873 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:29,197 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:29,200 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:29,203 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:29,211 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:29,213 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:29,216 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-09-07 12:30:29,216 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-07 12:30:29,224 INFO k.a.j.r.LoadosophiaUploader: Storing results for upload to Sense: /tmp/Sense_8216182284361967090.jtl
+2018-09-07 12:30:29,224 INFO o.a.j.v.b.BackendListener: jp@gc - Loadosophia.org Uploader: Starting worker with class: class kg.apc.jmeter.reporters.LoadosophiaClient and queue capacity: 5000
+2018-09-07 12:30:29,224 INFO o.a.j.v.b.BackendListener: jp@gc - Loadosophia.org Uploader: Started  worker with class: class kg.apc.jmeter.reporters.LoadosophiaClient
+2018-09-07 12:30:29,225 INFO k.a.j.r.LoadosophiaClient: Starting BM.Sense online test
+2018-09-07 12:30:29,225 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/start HTTP/1.1
+2018-09-07 12:30:29,226 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:29,975 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:30,020 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:30,076 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:30,573 INFO k.a.j.r.LoadosophiaUploader: <p>Started active test: <a href='https://sense.blazemeter.com/gui/active/cb2659db/'>https://sense.blazemeter.com/gui/active/cb2659db/</a></p>
+2018-09-07 12:30:30,574 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-09-07 12:30:30,767 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Content
+2018-09-07 12:30:30,767 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Content.
+2018-09-07 12:30:30,767 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-09-07 12:30:30,767 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 100
+2018-09-07 12:30:30,795 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2018-09-07 12:30:30,795 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-09-07 12:30:31,071 INFO o.a.j.t.JMeterThread: Thread started: Content 1-100
+2018-09-07 12:30:31,075 WARN k.a.j.t.VariableThroughputTimer: No free threads available in current Thread Group Content, made 0 samples/s for expected rps 1.0 samples/s, increase your number of threads
+2018-09-07 12:30:31,371 INFO o.a.j.t.JMeterThread: Thread started: Content 1-99
+2018-09-07 12:30:31,629 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-07 12:30:31,668 INFO o.a.j.t.JMeterThread: Thread started: Content 1-98
+2018-09-07 12:30:31,967 INFO o.a.j.t.JMeterThread: Thread started: Content 1-97
+2018-09-07 12:30:32,271 INFO o.a.j.t.JMeterThread: Thread started: Content 1-96
+2018-09-07 12:30:32,571 INFO o.a.j.t.JMeterThread: Thread started: Content 1-95
+2018-09-07 12:30:32,644 INFO o.a.j.r.Summariser: Generate Summary Results +      1 in 00:00:03 =    0.3/s Avg:  1568 Min:  1568 Max:  1568 Err:     0 (0.00%) Active: 6 Started: 6 Finished: 0
+2018-09-07 12:30:32,646 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:32-0600","rps":1,"threads":6,"avg_rt":1568,"quantiles":{"100.0":1568,"99.0":1568,"98.0":1568,"95.0":1568,"90.0":1568,"80.0":1568,"75.0":1568,"50.0":1568,"25.0":1568},"net":{"0":1,"1":0},"rc":{"200":1},"planned_rps":0}]
+2018-09-07 12:30:32,647 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:32,871 INFO o.a.j.t.JMeterThread: Thread started: Content 1-94
+2018-09-07 12:30:33,168 INFO o.a.j.t.JMeterThread: Thread started: Content 1-93
+2018-09-07 12:30:33,471 INFO o.a.j.t.JMeterThread: Thread started: Content 1-92
+2018-09-07 12:30:33,771 INFO o.a.j.t.JMeterThread: Thread started: Content 1-91
+2018-09-07 12:30:33,841 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:33-0600","rps":3,"threads":9,"avg_rt":866,"quantiles":{"100.0":1117,"99.0":1117,"98.0":1117,"95.0":1117,"90.0":1117,"80.0":1117,"75.0":1117,"50.0":1096,"25.0":387},"net":{"0":3,"1":0},"rc":{"200":3},"planned_rps":0}]
+2018-09-07 12:30:33,841 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:34,071 INFO o.a.j.t.JMeterThread: Thread started: Content 1-90
+2018-09-07 12:30:34,371 INFO o.a.j.t.JMeterThread: Thread started: Content 1-89
+2018-09-07 12:30:34,671 INFO o.a.j.t.JMeterThread: Thread started: Content 1-88
+2018-09-07 12:30:34,968 INFO o.a.j.t.JMeterThread: Thread started: Content 1-87
+2018-09-07 12:30:35,039 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:33-0600","rps":1,"threads":10,"avg_rt":207,"quantiles":{"100.0":207,"99.0":207,"98.0":207,"95.0":207,"90.0":207,"80.0":207,"75.0":207,"50.0":207,"25.0":207},"net":{"0":1,"1":0},"rc":{"200":1},"planned_rps":0},{"ts":"2018-09-07T12:30:34-0600","rps":1,"threads":11,"avg_rt":1035,"quantiles":{"100.0":1035,"99.0":1035,"98.0":1035,"95.0":1035,"90.0":1035,"80.0":1035,"75.0":1035,"50.0":1035,"25.0":1035},"net":{"0":1,"1":0},"rc":{"200":1},"planned_rps":0}]
+2018-09-07 12:30:35,039 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:35,269 INFO o.a.j.t.JMeterThread: Thread started: Content 1-86
+2018-09-07 12:30:35,571 INFO o.a.j.t.JMeterThread: Thread started: Content 1-85
+2018-09-07 12:30:35,871 INFO o.a.j.t.JMeterThread: Thread started: Content 1-84
+2018-09-07 12:30:36,171 INFO o.a.j.t.JMeterThread: Thread started: Content 1-83
+2018-09-07 12:30:36,241 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:35-0600","rps":5,"threads":17,"avg_rt":699,"quantiles":{"100.0":1057,"99.0":1057,"98.0":1057,"95.0":1057,"90.0":1057,"80.0":1022,"75.0":1022,"50.0":1014,"25.0":204},"net":{"0":5,"1":0},"rc":{"200":5},"planned_rps":0},{"ts":"2018-09-07T12:30:36-0600","rps":1,"threads":17,"avg_rt":1136,"quantiles":{"100.0":1136,"99.0":1136,"98.0":1136,"95.0":1136,"90.0":1136,"80.0":1136,"75.0":1136,"50.0":1136,"25.0":1136},"net":{"0":1,"1":0},"rc":{"200":1},"planned_rps":0}]
+2018-09-07 12:30:36,242 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:36,469 INFO o.a.j.t.JMeterThread: Thread started: Content 1-82
+2018-09-07 12:30:36,771 INFO o.a.j.t.JMeterThread: Thread started: Content 1-81
+2018-09-07 12:30:37,071 INFO o.a.j.t.JMeterThread: Thread started: Content 1-80
+2018-09-07 12:30:37,367 INFO o.a.j.t.JMeterThread: Thread started: Content 1-79
+2018-09-07 12:30:37,435 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:36-0600","rps":6,"threads":20,"avg_rt":652,"quantiles":{"100.0":1130,"99.0":1130,"98.0":1130,"95.0":1130,"90.0":1130,"80.0":1045,"75.0":1045,"50.0":282,"25.0":218},"net":{"0":6,"1":0},"rc":{"200":6},"planned_rps":0},{"ts":"2018-09-07T12:30:37-0600","rps":3,"threads":22,"avg_rt":482,"quantiles":{"100.0":1017,"99.0":1017,"98.0":1017,"95.0":1017,"90.0":1017,"80.0":1017,"75.0":1017,"50.0":229,"25.0":202},"net":{"0":3,"1":0},"rc":{"200":3},"planned_rps":0}]
+2018-09-07 12:30:37,436 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:37,671 INFO o.a.j.t.JMeterThread: Thread started: Content 1-78
+2018-09-07 12:30:37,971 INFO o.a.j.t.JMeterThread: Thread started: Content 1-77
+2018-09-07 12:30:38,271 INFO o.a.j.t.JMeterThread: Thread started: Content 1-76
+2018-09-07 12:30:38,571 INFO o.a.j.t.JMeterThread: Thread started: Content 1-75
+2018-09-07 12:30:38,631 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:37-0600","rps":1,"threads":23,"avg_rt":1044,"quantiles":{"100.0":1044,"99.0":1044,"98.0":1044,"95.0":1044,"90.0":1044,"80.0":1044,"75.0":1044,"50.0":1044,"25.0":1044},"net":{"0":1,"1":0},"rc":{"200":1},"planned_rps":0},{"ts":"2018-09-07T12:30:38-0600","rps":6,"threads":26,"avg_rt":592,"quantiles":{"100.0":1053,"99.0":1053,"98.0":1053,"95.0":1053,"90.0":1053,"80.0":1036,"75.0":1036,"50.0":335,"25.0":214},"net":{"0":4,"1":2},"rc":{"200":4,"404":2},"planned_rps":0}]
+2018-09-07 12:30:38,632 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:38,870 INFO o.a.j.t.JMeterThread: Thread started: Content 1-74
+2018-09-07 12:30:39,171 INFO o.a.j.t.JMeterThread: Thread started: Content 1-73
+2018-09-07 12:30:39,468 INFO o.a.j.t.JMeterThread: Thread started: Content 1-72
+2018-09-07 12:30:39,771 INFO o.a.j.t.JMeterThread: Thread started: Content 1-71
+2018-09-07 12:30:39,824 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:38-0600","rps":3,"threads":27,"avg_rt":620,"quantiles":{"100.0":1073,"99.0":1073,"98.0":1073,"95.0":1073,"90.0":1073,"80.0":1073,"75.0":1073,"50.0":577,"25.0":210},"net":{"0":3,"1":0},"rc":{"200":3},"planned_rps":0},{"ts":"2018-09-07T12:30:39-0600","rps":8,"threads":29,"avg_rt":568,"quantiles":{"100.0":1105,"99.0":1105,"98.0":1105,"95.0":1105,"90.0":1105,"80.0":1071,"75.0":1039,"50.0":295,"25.0":220},"net":{"0":5,"1":3},"rc":{"200":5,"404":3},"planned_rps":0}]
+2018-09-07 12:30:39,825 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:40,071 INFO o.a.j.t.JMeterThread: Thread started: Content 1-70
+2018-09-07 12:30:40,371 INFO o.a.j.t.JMeterThread: Thread started: Content 1-69
+2018-09-07 12:30:40,668 INFO o.a.j.t.JMeterThread: Thread started: Content 1-68
+2018-09-07 12:30:40,971 INFO o.a.j.t.JMeterThread: Thread started: Content 1-67
+2018-09-07 12:30:41,065 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:39-0600","rps":1,"threads":30,"avg_rt":204,"quantiles":{"100.0":204,"99.0":204,"98.0":204,"95.0":204,"90.0":204,"80.0":204,"75.0":204,"50.0":204,"25.0":204},"net":{"0":1,"1":0},"rc":{"200":1},"planned_rps":0},{"ts":"2018-09-07T12:30:40-0600","rps":9,"threads":33,"avg_rt":558,"quantiles":{"100.0":1159,"99.0":1159,"98.0":1159,"95.0":1159,"90.0":1159,"80.0":1139,"75.0":1060,"50.0":262,"25.0":247},"net":{"0":7,"1":2},"rc":{"404":2,"200":7},"planned_rps":0}]
+2018-09-07 12:30:41,065 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:41,271 INFO o.a.j.t.JMeterThread: Thread started: Content 1-66
+2018-09-07 12:30:41,571 INFO o.a.j.t.JMeterThread: Thread started: Content 1-65
+2018-09-07 12:30:41,871 INFO o.a.j.t.JMeterThread: Thread started: Content 1-64
+2018-09-07 12:30:41,926 INFO o.a.j.g.a.Start: Shutting test down
+2018-09-07 12:30:41,942 INFO o.a.j.t.JMeterThread: Stopping: Content 1-15
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-53
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-28
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-49
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-38
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-61
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-77
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-13
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-60
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-45
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-92
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-64
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-79
+2018-09-07 12:30:41,943 INFO o.a.j.t.JMeterThread: Stopping: Content 1-23
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-99
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-18
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-73
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-81
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-86
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-51
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-19
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-44
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-20
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-89
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-58
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-80
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-42
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-59
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-82
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-48
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-90
+2018-09-07 12:30:41,944 INFO o.a.j.t.JMeterThread: Stopping: Content 1-46
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-31
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-5
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-68
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-78
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-27
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-66
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-54
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-91
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-35
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-93
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-32
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-26
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-96
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-67
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-33
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-41
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-29
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-4
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-37
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-75
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-24
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-16
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-52
+2018-09-07 12:30:41,945 INFO o.a.j.t.JMeterThread: Stopping: Content 1-47
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-57
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-84
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-71
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-8
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-36
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-70
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-100
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-21
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-30
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-12
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-9
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-55
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-2
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-69
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-25
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-88
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-63
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-56
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-17
+2018-09-07 12:30:41,946 INFO o.a.j.t.JMeterThread: Stopping: Content 1-94
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-65
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-72
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-98
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-10
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-34
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-97
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-6
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-22
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-50
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-11
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-3
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-83
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-95
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-62
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-85
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-74
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-40
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-43
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-14
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-87
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-39
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-76
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-7
+2018-09-07 12:30:41,947 INFO o.a.j.t.JMeterThread: Stopping: Content 1-1
+2018-09-07 12:30:42,007 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-67
+2018-09-07 12:30:42,171 INFO o.a.j.t.JMeterThread: Thread started: Content 1-63
+2018-09-07 12:30:42,171 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-63
+2018-09-07 12:30:42,254 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-97
+2018-09-07 12:30:42,266 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-90
+2018-09-07 12:30:42,266 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-76
+2018-09-07 12:30:42,266 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-77
+2018-09-07 12:30:42,266 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-89
+2018-09-07 12:30:42,272 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:41-0600","rps":7,"threads":37,"avg_rt":544,"quantiles":{"100.0":1098,"99.0":1098,"98.0":1098,"95.0":1098,"90.0":1098,"80.0":1054,"75.0":1054,"50.0":311,"25.0":238},"net":{"0":4,"1":3},"rc":{"200":4,"404":3},"planned_rps":0},{"ts":"2018-09-07T12:30:42-0600","rps":2,"threads":37,"avg_rt":1056,"quantiles":{"100.0":1080,"99.0":1080,"98.0":1080,"95.0":1080,"90.0":1080,"80.0":1080,"75.0":1080,"50.0":1032,"25.0":1032},"net":{"0":2,"1":0},"rc":{"200":2},"planned_rps":0}]
+2018-09-07 12:30:42,273 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:42,471 INFO o.a.j.t.JMeterThread: Thread started: Content 1-62
+2018-09-07 12:30:42,471 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-62
+2018-09-07 12:30:42,486 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-93
+2018-09-07 12:30:42,591 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-65
+2018-09-07 12:30:42,632 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-92
+2018-09-07 12:30:42,771 INFO o.a.j.t.JMeterThread: Thread started: Content 1-61
+2018-09-07 12:30:42,771 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-61
+2018-09-07 12:30:42,795 INFO o.a.j.t.JMeterThread: Thread started: Content 1-6
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-16
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-17
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-31
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-6
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-38
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-24
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-17
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-39
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-38
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-13
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-39
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-20
+2018-09-07 12:30:42,795 INFO o.a.j.t.JMeterThread: Thread started: Content 1-2
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-18
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-20
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-8
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-15
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-21
+2018-09-07 12:30:42,797 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-8
+2018-09-07 12:30:42,795 INFO o.a.j.t.JMeterThread: Thread started: Content 1-1
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-23
+2018-09-07 12:30:42,795 INFO o.a.j.t.JMeterThread: Thread started: Content 1-9
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-26
+2018-09-07 12:30:42,798 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-1
+2018-09-07 12:30:42,798 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-31
+2018-09-07 12:30:42,798 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-23
+2018-09-07 12:30:42,798 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-26
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-18
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-2
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-28
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-22
+2018-09-07 12:30:42,800 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-15
+2018-09-07 12:30:42,800 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-28
+2018-09-07 12:30:42,800 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-22
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-3
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-14
+2018-09-07 12:30:42,802 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-14
+2018-09-07 12:30:42,802 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-88
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-13
+2018-09-07 12:30:42,795 INFO o.a.j.t.JMeterThread: Thread started: Content 1-12
+2018-09-07 12:30:42,795 INFO o.a.j.t.JMeterThread: Thread started: Content 1-10
+2018-09-07 12:30:42,803 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-12
+2018-09-07 12:30:42,803 INFO o.a.j.t.JMeterThread: Thread started: Content 1-35
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread started: Content 1-44
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread started: Content 1-45
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread started: Content 1-40
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-35
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-44
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-45
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread started: Content 1-37
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread started: Content 1-43
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-4
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-43
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-69
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-27
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-5
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-19
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-29
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-27
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-33
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-29
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-41
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-24
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-16
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-41
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-34
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-30
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-32
+2018-09-07 12:30:42,805 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-34
+2018-09-07 12:30:42,805 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-32
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-33
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-5
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-19
+2018-09-07 12:30:42,803 INFO o.a.j.t.JMeterThread: Thread started: Content 1-42
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-4
+2018-09-07 12:30:42,805 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-42
+2018-09-07 12:30:42,803 INFO o.a.j.t.JMeterThread: Thread started: Content 1-36
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-37
+2018-09-07 12:30:42,805 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-36
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-80
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread started: Content 1-47
+2018-09-07 12:30:42,806 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-47
+2018-09-07 12:30:42,804 INFO o.a.j.t.JMeterThread: Thread started: Content 1-46
+2018-09-07 12:30:42,803 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-100
+2018-09-07 12:30:42,806 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-46
+2018-09-07 12:30:42,806 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-40
+2018-09-07 12:30:42,802 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-95
+2018-09-07 12:30:42,801 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-91
+2018-09-07 12:30:42,806 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-10
+2018-09-07 12:30:42,801 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-3
+2018-09-07 12:30:42,798 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-9
+2018-09-07 12:30:42,795 INFO o.a.j.t.JMeterThread: Thread started: Content 1-7
+2018-09-07 12:30:42,796 INFO o.a.j.t.JMeterThread: Thread started: Content 1-25
+2018-09-07 12:30:42,795 INFO o.a.j.t.JMeterThread: Thread started: Content 1-11
+2018-09-07 12:30:42,797 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-21
+2018-09-07 12:30:42,805 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-30
+2018-09-07 12:30:42,806 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-7
+2018-09-07 12:30:42,806 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-25
+2018-09-07 12:30:42,806 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-11
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-50
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-55
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-58
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-53
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-48
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-55
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-57
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-51
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-48
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-60
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-51
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-56
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-60
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-54
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-59
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-56
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-57
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-52
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-53
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-58
+2018-09-07 12:30:42,812 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-52
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread started: Content 1-49
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-50
+2018-09-07 12:30:42,811 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-54
+2018-09-07 12:30:42,812 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-49
+2018-09-07 12:30:42,812 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-59
+2018-09-07 12:30:42,913 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-64
+2018-09-07 12:30:42,913 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-98
+2018-09-07 12:30:43,227 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-99
+2018-09-07 12:30:43,451 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-96
+2018-09-07 12:30:43,451 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-81
+2018-09-07 12:30:43,451 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-82
+2018-09-07 12:30:43,451 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-68
+2018-09-07 12:30:43,451 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-73
+2018-09-07 12:30:43,451 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-71
+2018-09-07 12:30:43,471 INFO k.a.j.r.LoadosophiaClient: [{"ts":"2018-09-07T12:30:42-0600","rps":5,"threads":31,"avg_rt":952,"quantiles":{"100.0":1057,"99.0":1057,"98.0":1057,"95.0":1057,"90.0":1057,"80.0":1038,"75.0":1038,"50.0":1038,"25.0":1016},"net":{"0":5,"1":0},"rc":{"200":5},"planned_rps":0},{"ts":"2018-09-07T12:30:43-0600","rps":1,"threads":20,"avg_rt":1834,"quantiles":{"100.0":1834,"99.0":1834,"98.0":1834,"95.0":1834,"90.0":1834,"80.0":1834,"75.0":1834,"50.0":1834,"25.0":1834},"net":{"0":1,"1":0},"rc":{"200":1},"planned_rps":0}]
+2018-09-07 12:30:43,472 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/data HTTP/1.1
+2018-09-07 12:30:43,842 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-75
+2018-09-07 12:30:43,842 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-86
+2018-09-07 12:30:43,842 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-74
+2018-09-07 12:30:43,842 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-85
+2018-09-07 12:30:43,842 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-66
+2018-09-07 12:30:44,340 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-94
+2018-09-07 12:30:44,340 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-84
+2018-09-07 12:30:44,340 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-78
+2018-09-07 12:30:44,340 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-83
+2018-09-07 12:30:44,340 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-70
+2018-09-07 12:30:44,491 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-72
+2018-09-07 12:30:44,491 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-79
+2018-09-07 12:30:44,567 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-87
+2018-09-07 12:30:44,567 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-09-07 12:30:44,568 INFO o.a.j.r.Summariser: Generate Summary Results +     63 in 00:00:12 =    5.3/s Avg:   676 Min:   201 Max:  1834 Err:    10 (15.87%) Active: 0 Started: 100 Finished: 100
+2018-09-07 12:30:44,568 INFO o.a.j.r.Summariser: Generate Summary Results =     64 in 00:00:15 =    4.2/s Avg:   690 Min:   201 Max:  1834 Err:    10 (15.62%)
+2018-09-07 12:30:44,669 INFO o.a.j.v.b.BackendListener: Worker ended
+2018-09-07 12:30:44,670 INFO o.a.j.r.ResultCollector: forced flush through ResultCollector#flushFile
+2018-09-07 12:30:44,670 INFO k.a.j.r.LoadosophiaClient: Successfully flushed results file
+2018-09-07 12:30:44,674 INFO k.a.j.r.LoadosophiaUploader: Starting upload to BM.Sense
+2018-09-07 12:30:44,674 INFO o.l.j.LoadosophiaAPIClient: Preparing files to send
+2018-09-07 12:30:44,677 INFO k.a.j.r.LoadosophiaUploader: Gzipping /tmp/Sense_8216182284361967090.jtl
+2018-09-07 12:30:44,678 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/files HTTP/1.1
+2018-09-07 12:30:49,901 INFO k.a.j.h.HttpUtils: Requesting: GET https://sense.blazemeter.com/api/files/933385 HTTP/1.1
+2018-09-07 12:30:50,096 INFO k.a.j.h.HttpUtils: Requesting: PATCH https://sense.blazemeter.com/api/tests/696648 HTTP/1.1
+2018-09-07 12:30:50,424 INFO k.a.j.r.LoadosophiaUploader: <p>Uploaded successfully, go to results: <a href='https://sense.blazemeter.com/gui/696648/'>https://sense.blazemeter.com/gui/696648/</a></p>
+2018-09-07 12:30:50,424 INFO k.a.j.r.LoadosophiaClient: Ending BM.Sense online test
+2018-09-07 12:30:50,425 INFO k.a.j.h.HttpUtils: Requesting: POST https://sense.blazemeter.com/api/active/receiver/stop HTTP/1.1
+2018-09-07 12:30:50,636 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-09-08 08:01:22,524 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:19:11,258 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:19:13,343 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:22,156 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:24,018 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:25,629 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:26,375 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:27,200 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:28,554 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:29,361 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:30,499 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:30,518 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:31,145 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:31,785 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:35,189 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:35,206 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-08 12:33:35,216 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-08 12:33:36,383 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:36,496 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:38,337 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:42,554 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:42,683 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:33:45,344 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-08 12:33:45,431 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:08,816 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-08 12:34:08,969 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:12,966 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:12,969 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:12,981 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:13,052 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:31,712 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:31,715 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:31,727 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:31,730 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:31,738 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:44,617 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:44,802 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:34:44,820 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:35:11,376 INFO o.a.j.s.FileServer: Set new base='/Users/crksf/Documents/GitHub/jmeter-kubernetes'
+2018-09-08 12:35:11,376 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:35:11,381 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:35:11,383 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:35:11,396 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:35:11,402 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 12:35:17,912 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:06,460 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:06,494 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:09,651 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:22,311 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:24,546 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:24,565 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:24,698 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:26,758 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:31,732 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-08 17:17:31,844 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:33,600 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:45,168 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:45,271 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:47,198 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:47,201 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:47,209 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:47,283 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:17:53,110 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:18:06,896 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:18:06,899 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:18:06,906 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:18:06,908 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:18:06,916 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:18:10,753 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:18:10,766 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:18:10,893 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:18:14,677 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-09-08 17:18:14,677 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-08 17:18:14,679 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-09-08 17:18:15,017 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Content
+2018-09-08 17:18:15,017 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Content.
+2018-09-08 17:18:15,017 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-09-08 17:18:15,017 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 100
+2018-09-08 17:18:15,042 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2018-09-08 17:18:15,042 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-09-08 17:18:15,319 INFO o.a.j.t.JMeterThread: Thread started: Content 1-100
+2018-09-08 17:18:15,335 WARN k.a.j.t.VariableThroughputTimer: No free threads available in current Thread Group Content, made 0 samples/s for expected rps 1.0 samples/s, increase your number of threads
+2018-09-08 17:18:15,621 INFO o.a.j.t.JMeterThread: Thread started: Content 1-99
+2018-09-08 17:18:15,922 INFO o.a.j.t.JMeterThread: Thread started: Content 1-98
+2018-09-08 17:18:16,218 INFO o.a.j.t.JMeterThread: Thread started: Content 1-97
+2018-09-08 17:18:16,520 INFO o.a.j.t.JMeterThread: Thread started: Content 1-96
+2018-09-08 17:18:16,818 INFO o.a.j.t.JMeterThread: Thread started: Content 1-95
+2018-09-08 17:18:17,121 INFO o.a.j.t.JMeterThread: Thread started: Content 1-94
+2018-09-08 17:18:17,418 INFO o.a.j.t.JMeterThread: Thread started: Content 1-93
+2018-09-08 17:18:17,719 INFO o.a.j.t.JMeterThread: Thread started: Content 1-92
+2018-09-08 17:18:18,019 INFO o.a.j.t.JMeterThread: Thread started: Content 1-91
+2018-09-08 17:18:18,318 INFO o.a.j.t.JMeterThread: Thread started: Content 1-90
+2018-09-08 17:18:18,382 INFO o.a.j.g.a.Start: Shutting test down
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-28
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-84
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-34
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-18
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-6
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-31
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-27
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-15
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-14
+2018-09-08 17:18:18,406 INFO o.a.j.t.JMeterThread: Stopping: Content 1-65
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-57
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-89
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-20
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-36
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-75
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-55
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-93
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-40
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-99
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-29
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-71
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-77
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-98
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-100
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-35
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-66
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-94
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-8
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-2
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-81
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-68
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-79
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-96
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-85
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-44
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-58
+2018-09-08 17:18:18,407 INFO o.a.j.t.JMeterThread: Stopping: Content 1-60
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-17
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-25
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-47
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-30
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-59
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-95
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-37
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-97
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-82
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-67
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-39
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-26
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-11
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-91
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-53
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-72
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-1
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-52
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-21
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-50
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-19
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-9
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-78
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-45
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-64
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-24
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-73
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-74
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-41
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-49
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-56
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-23
+2018-09-08 17:18:18,408 INFO o.a.j.t.JMeterThread: Stopping: Content 1-76
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-22
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-4
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-32
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-92
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-48
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-46
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-7
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-54
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-42
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-61
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-86
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-70
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-38
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-12
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-33
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-90
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-83
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-63
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-10
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-80
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-69
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-51
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-3
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-13
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-5
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-16
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-87
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-88
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-43
+2018-09-08 17:18:18,409 INFO o.a.j.t.JMeterThread: Stopping: Content 1-62
+2018-09-08 17:18:18,621 INFO o.a.j.t.JMeterThread: Thread started: Content 1-89
+2018-09-08 17:18:18,621 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-89
+2018-09-08 17:18:18,670 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-91
+2018-09-08 17:18:18,761 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-90
+2018-09-08 17:18:18,852 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-96
+2018-09-08 17:18:18,852 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-99
+2018-09-08 17:18:18,918 INFO o.a.j.t.JMeterThread: Thread started: Content 1-88
+2018-09-08 17:18:18,918 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-88
+2018-09-08 17:18:19,026 INFO o.a.j.t.JMeterThread: Thread started: Content 1-2
+2018-09-08 17:18:19,026 INFO o.a.j.t.JMeterThread: Thread started: Content 1-1
+2018-09-08 17:18:19,026 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-2
+2018-09-08 17:18:19,026 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-1
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-5
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-14
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-16
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-13
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-5
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-22
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-16
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-28
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-29
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-22
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-33
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-31
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-18
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-9
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-12
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-33
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-6
+2018-09-08 17:18:19,032 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-31
+2018-09-08 17:18:19,032 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-18
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-32
+2018-09-08 17:18:19,032 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-13
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-3
+2018-09-08 17:18:19,032 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-12
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-15
+2018-09-08 17:18:19,032 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-32
+2018-09-08 17:18:19,033 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-3
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-20
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-8
+2018-09-08 17:18:19,033 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-15
+2018-09-08 17:18:19,033 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-20
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-7
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-4
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-11
+2018-09-08 17:18:19,029 INFO o.a.j.t.JMeterThread: Thread started: Content 1-10
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-28
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-35
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-34
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-27
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-30
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-26
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-25
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-23
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-19
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-24
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-21
+2018-09-08 17:18:19,030 INFO o.a.j.t.JMeterThread: Thread started: Content 1-17
+2018-09-08 17:18:19,033 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-11
+2018-09-08 17:18:19,033 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-4
+2018-09-08 17:18:19,033 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-7
+2018-09-08 17:18:19,033 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-8
+2018-09-08 17:18:19,032 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-14
+2018-09-08 17:18:19,032 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-6
+2018-09-08 17:18:19,035 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-10
+2018-09-08 17:18:19,035 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-35
+2018-09-08 17:18:19,035 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-9
+2018-09-08 17:18:19,036 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-30
+2018-09-08 17:18:19,036 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-29
+2018-09-08 17:18:19,035 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-34
+2018-09-08 17:18:19,036 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-26
+2018-09-08 17:18:19,036 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-27
+2018-09-08 17:18:19,036 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-23
+2018-09-08 17:18:19,036 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-24
+2018-09-08 17:18:19,036 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-25
+2018-09-08 17:18:19,036 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-21
+2018-09-08 17:18:19,036 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-19
+2018-09-08 17:18:19,037 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-17
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-38
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-36
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-40
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-41
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-42
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-46
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-41
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-49
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-47
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-48
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-50
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-47
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-51
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-50
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-36
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-40
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-37
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-51
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-38
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-39
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-46
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-52
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-49
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-42
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-45
+2018-09-08 17:18:19,039 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-48
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-44
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread started: Content 1-43
+2018-09-08 17:18:19,039 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-52
+2018-09-08 17:18:19,039 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-44
+2018-09-08 17:18:19,039 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-37
+2018-09-08 17:18:19,038 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-39
+2018-09-08 17:18:19,039 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-43
+2018-09-08 17:18:19,039 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-45
+2018-09-08 17:18:19,044 INFO o.a.j.t.JMeterThread: Thread started: Content 1-53
+2018-09-08 17:18:19,044 INFO o.a.j.t.JMeterThread: Thread started: Content 1-55
+2018-09-08 17:18:19,044 INFO o.a.j.t.JMeterThread: Thread started: Content 1-54
+2018-09-08 17:18:19,044 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-54
+2018-09-08 17:18:19,044 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-53
+2018-09-08 17:18:19,044 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-55
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-67
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-61
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-72
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-71
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-67
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-62
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-72
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-56
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-78
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-77
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-64
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-56
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-69
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-70
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-64
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-68
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-57
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-65
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-68
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-70
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-65
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-69
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-77
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-62
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-74
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-73
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-78
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-74
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-79
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-63
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-66
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-79
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-60
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-58
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-75
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-76
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-58
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-76
+2018-09-08 17:18:19,049 INFO o.a.j.t.JMeterThread: Thread started: Content 1-59
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-75
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-60
+2018-09-08 17:18:19,051 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-71
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-66
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-63
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-73
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-61
+2018-09-08 17:18:19,051 INFO o.a.j.t.JMeterThread: Thread started: Content 1-83
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread started: Content 1-82
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread started: Content 1-80
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread started: Content 1-81
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread started: Content 1-86
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-82
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-80
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-81
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread started: Content 1-84
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread started: Content 1-85
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-84
+2018-09-08 17:18:19,050 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-57
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-85
+2018-09-08 17:18:19,052 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-83
+2018-09-08 17:18:19,051 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-59
+2018-09-08 17:18:19,053 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-86
+2018-09-08 17:18:19,054 INFO o.a.j.t.JMeterThread: Thread started: Content 1-87
+2018-09-08 17:18:19,055 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-87
+2018-09-08 17:18:19,844 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-100
+2018-09-08 17:18:19,845 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-93
+2018-09-08 17:18:19,845 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-92
+2018-09-08 17:18:19,844 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-94
+2018-09-08 17:18:19,844 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-95
+2018-09-08 17:18:20,262 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-97
+2018-09-08 17:18:20,262 INFO o.a.j.t.JMeterThread: Thread finished: Content 1-98
+2018-09-08 17:18:20,263 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-09-08 17:18:20,263 INFO o.a.j.r.Summariser: Generate Summary Results =      8 in 00:00:06 =    1.4/s Avg:   696 Min:   396 Max:  1634 Err:     0 (0.00%)
+2018-09-08 17:18:20,264 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-09-08 17:20:34,143 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:20:36,627 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-08 17:20:36,754 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-09-08 17:31:12,370 INFO o.a.j.g.a.Load: Loading file: /Users/crksf/Documents/GitHub/jmeter-kubernetes/cloudssky.jmx
+2018-09-08 17:31:12,371 INFO o.a.j.s.FileServer: Set new base='/Users/crksf/Documents/GitHub/jmeter-kubernetes'
+2018-09-08 17:31:12,371 INFO o.a.j.s.SaveService: Loading file: /Users/crksf/Documents/GitHub/jmeter-kubernetes/cloudssky.jmx
+2018-09-08 17:31:12,395 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-09-08 17:31:12,397 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2018-09-08 17:31:12,507 INFO o.a.j.s.FileServer: Set new base='/Users/crksf/Documents/GitHub/jmeter-kubernetes'
+2018-09-08 17:31:16,120 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-08 17:31:26,191 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
+2018-09-08 17:31:26,774 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [(llbqa)_json_schema_assertion]
